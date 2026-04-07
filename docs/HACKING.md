@@ -8,13 +8,14 @@ SPDX-License-Identifier: BSD-3-Clause
 
 - 4 level indent
 - spaces-only (no tabs)
-- open braces on the if/for line:
+- open braces on the if/for line and no space after if/for:
 
   ```
-  if (banana) {
+  if(banana) {
       go_nuts();
   }
   ```
 
+- No space at end of line
 - keep source lines shorter than 80 columns
 - See `libssh2-style.el` for how to achieve this within Emacs
